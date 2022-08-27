@@ -1,0 +1,25 @@
+name: dpg-custom-plot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - libstdcxx-ng
+  - numpy
+  - ipython
+  - matplotlib
+  - opencv
+  - pip:
+    - -e .
+    - dearpygui
+  - black
+  - jupyterlab
+  - pytest
+  - pytest-cov
+  - tox
+  - pre_commit
+  - nbdime
+  - nbstripout
+  - sphinx
+  - recommonmark
